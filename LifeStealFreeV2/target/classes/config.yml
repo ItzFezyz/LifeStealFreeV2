@@ -1,0 +1,36 @@
+LoseOnEnviromentalDeath: true
+KillType: "BOTH" #GAIN player gains the heart this bypass MaxHearts DROP it drops the item BOTH it will give the heart to the player unless their full if that's the case it will drop.
+MaxHearts: 10 # <- 10 = a full row of hearts.
+BanMessage: "<SOLID:FF674D> ${player} has been death banned!" # ${player} will be replaced with the player who got banned name
+Prefix: true
+PrefixMessage: "<SOLID:FFFFFF>&l[LifeSteal API]: "
+DeathMessage: "<GRADIENT:FF674D> ${player} Has Died.</GRADIENT:FFFFFF>"
+HeartName: "&4Heart"
+HeartLore: "&7Right click to gain a heart!"
+HeartMaterial: "RED_DYE" # Please use capitals!
+ReviveHeartAmount: 1
+ReviveGuiName: "&4Revive"
+ReviveName: "&2Revive"
+ReviveLore: "&7Right click to revive a player"
+ReviveMaterial: "BEACON"
+ReviveMessage: "&4${revived} was revived by ${reviver}" # ${revived} is the revived player and ${reviver} is the reviver.
+HeartRecipe:
+  - GOLD_BLOCK
+  - GOLD_BLOCK
+  - GOLD_BLOCK
+  - DIAMOND_BLOCK
+  - TOTEM_OF_UNDYING
+  - DIAMOND_BLOCK
+  - GOLD_BLOCK
+  - GOLD_BLOCK
+  - GOLD_BLOCK
+ReviveRecipe:
+  - GLASS
+  - GLASS
+  - GLASS
+  - GLASS
+  - TOTEM_OF_UNDYING
+  - GLASS
+  - OBSIDIAN
+  - OBSIDIAN
+  - OBSIDIAN

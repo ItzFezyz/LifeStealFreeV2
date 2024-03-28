@@ -1,0 +1,24 @@
+name: LifeStealFreeV2
+version: '${project.version}'
+main: plugins.lifestealfreev2.Main
+api-version: '1.20'
+depend:
+  - CommandAPI
+permissions:
+  LifeSteal.Revive:
+    default: true
+  LifeSteal.Heart:
+    default: true
+  LifeSteal.Item:
+    default: false
+  LifeSteal.Sethealth:
+    default: false
+  LifeSteal.Revive.Player:
+    default: false
+  LifeSteal.*:
+    children:
+      LifeSteal.Sethealth: true
+      LifeSteal.Revive: true
+      LifeSteal.Heart: true
+      LifeSteal.Item: true
+      LifeSteal.Revive.Player: true
