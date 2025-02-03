@@ -1,8 +1,8 @@
-LoseOnEnviromentalDeath: true
+LoseOnEnviromentalDeath: false
 KillType: "BOTH" #GAIN player gains the heart this bypass MaxHearts DROP it drops the item BOTH it will give the heart to the player unless their full if that's the case it will drop.
-MaxHearts: 10 # <- 10 = a full row of hearts.
+MaxHearts: 20 # <- 10 = a full row of hearts.
 BanMessage: "<SOLID:FF674D> ${player} has been death banned!" # ${player} will be replaced with the player who got banned name
-Prefix: true
+Prefix: false
 PrefixMessage: "<SOLID:FFFFFF>&l[LifeSteal API]: "
 DeathMessage: "<GRADIENT:FF674D> ${player} Has Died.</GRADIENT:FFFFFF>"
 HeartName: "&4Heart"
