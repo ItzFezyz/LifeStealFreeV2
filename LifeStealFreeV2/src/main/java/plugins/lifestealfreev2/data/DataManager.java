@@ -8,10 +8,10 @@ import java.util.UUID;
 public class DataManager extends UserFolder {
 
     @Getter
-    private PlayerData data1;
+    private PlayerData playerData;
 
     public DataManager(UUID uuid) {
         super(uuid);
-        data1 = loadData(PlayerData.class, "Data.json");
+        playerData = loadData(PlayerData.class, "Data.json");
     }
 }
